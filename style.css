@@ -7,18 +7,22 @@ font-family: monospace;
     margin-right: 15%;
 }
 .topnav{
-  position: -webkit-sticky;
+  background-color: white;	
+  padding-top:5%;	
   position: sticky;
+  top: 0;
 }
 #schedule{
-    margin-top:800px;
+    margin-top:600px;
 }
 #contact{
-    margin-top:1200px;
+    margin-top:600px;
 }
 #about{
-    margin-top:1800px;
-    margin-bottom:200px;
+	position: absolute;
+	margin-top: 600px;
+	padding-bottom:200px;
+	padding-right:15%;
 }
 
 canvas {
